@@ -141,32 +141,6 @@ Production build:
 npm run build
 npm run preview
 ```
-
-## Deployment
-
-Recommended target: Vercel.
-
-1. Push repository to GitHub.
-2. Import project in Vercel.
-3. Use Vite defaults.
-4. Build command: npm run build
-5. Output directory: dist
-6. Deploy.
-
-## PDF Requirement Mapping
-
-### 1. Topic-specific chatbot
-
-Implemented as a dedicated global travel planning assistant with explicit domain scope.
-
-### 2. UI reflects topic and usability
-
-Implemented via planning-first layout, prompt chips, context-rich conversation design, and travel-focused wording.
-
-### 3. Frontend thinking quality
-
-Implemented through first-impression clarity, empty/loading/error states, and practical interaction details.
-
 ### 4. Functional and responsive
 
 Implemented with responsive layout, working chat flow, and verified production build.
